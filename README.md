@@ -1,7 +1,7 @@
-#Drag and Drop for AngularJS (with Animation)
+# Drag and Drop for AngularJS (with Animation)
 
 ---
-##Angular Draggable options
+## Angular Draggable options
 * **jqyoui-draggable** – A custom angular attribute to make any element draggable. It holds more settings such as:
     * **index** – number – $index of an item of a model (if it is an array) associated with it
     * **placeholder** – boolean/string – If true, the place will be occupied even though a dragggable is moved/dropped somewhere else. If 'keep' is supplied, the original item won't be removed from the draggable.
@@ -14,7 +14,7 @@
 * **data-jqyoui-options** – object – should hold all the valid options supported by [jQueryUI Draggable](http://api.jqueryui.com/draggable)
 * **ng-model** – string – An angular model defined in a controller. Should be a JS array or object
 
-##Angular Droppable options
+## Angular Droppable options
 * **jqyoui-droppable** – A custom angular attribute to make any element droppable. It holds more settings such as:
     * **index** – number – $index of an item of a model (if it is an array) associated with it
     * **multiple** – boolean – Requires to be true only if animate is set to true for draggable and to avoid swapping.
